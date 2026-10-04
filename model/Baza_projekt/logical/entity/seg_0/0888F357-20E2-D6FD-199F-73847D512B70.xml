@@ -1,0 +1,330 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0888F357-20E2-D6FD-199F-73847D512B70" name="Nastup">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 13:48:44 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Nastupi</preferredAbbreviation>
+<shortName>Perf</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_NASTUP" id="94CDC4DE-FB9F-7D2F-69C7-13F82FCF0FD7">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 13:49:13 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_setova" id="B2357210-90CE-EA87-B2A4-F1F6F2303C42">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 13:49:37 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_poena_tot" id="84342D5E-9833-CE2F-B630-570199FDE830">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 13:50:31 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_blokova_dobr" id="CA23B7A8-6B50-D5EB-0DC2-037239A6CE2A">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 13:50:57 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_blokova_neu" id="DF6FCD77-5834-947F-FE9E-38A9C2D6BB02">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 13:51:27 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_blokova_gres" id="8D97EB84-4B11-3FEC-CED9-5743C032297A">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 13:51:50 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_blokova_tot" id="3F4DB271-9E9F-E58B-F605-7D3B003219CD">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 13:52:10 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_servi_dobr" id="AC3F551F-17A8-135B-408F-79E0CFD79FE3">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 13:52:47 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_servi_neu" id="9BBAFF42-F4B9-1F7A-47BB-E2603A2A6F4A">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 13:53:10 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_servi_gres" id="3D3DFCA5-2D91-A1B7-6B8D-DA07533D0837">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 13:53:24 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_servi_tot" id="FA24236F-3BBC-BB56-966F-1FD664F53F56">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 13:53:37 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_napada_dobr" id="62A8F877-B4D7-98DF-4FDA-245ED380E79B">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 13:54:08 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_napada_neu" id="1D654FE4-22FF-8409-83FE-1E053A04A9ED">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 13:54:27 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_napada_gres" id="A195C220-BEBE-A988-0EC8-26DBF0BC57E2">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 13:54:41 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_napada_tot" id="4B63B6A5-5EF2-40B9-9880-A59B39EECBD7">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 13:56:37 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_rc_dobr" id="08F382B0-D4DE-8645-E740-564F78FE4DE8">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 13:56:52 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_rc_neu" id="21399D17-12CB-8820-8DAC-10BCF7D6D2F8">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 13:57:06 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_rc_gres" id="0A3697F8-794D-8065-BEF8-01998FA62FC2">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 13:57:24 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_rc_tot" id="EDB9D6A2-EC5F-C1A2-E37E-0A1A19C793F0">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 13:57:33 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_UTAKMICA" id="0625174E-AA6E-190C-80C2-1D6116541CC2">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:09:03 UTC</createdTime>
+<generatorID>8A4D3482-61DA-33CB-1853-68BF1D2B71A5</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<referedAttribute>543FCDAE-739F-230C-A455-25D675029CCD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_IGRAC" id="43EB16FA-8B3C-F4E8-026B-24C1B9528539">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:09:25 UTC</createdTime>
+<generatorID>107C8F60-901C-02A9-1BB0-0B34421DBE39</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<referedAttribute>D9BB5159-0F66-70A2-6D8B-2CCA78AE5448</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8D3CD035-F374-2065-796F-D8808DC31B3B" name="Nastup PK">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 13:49:29 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>94CDC4DE-FB9F-7D2F-69C7-13F82FCF0FD7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

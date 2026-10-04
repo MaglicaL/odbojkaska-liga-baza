@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7872B02-1796-8133-A31F-7216A3974404" name="Klubovi">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>1D4C9794-368E-20C0-3D73-2A34F938F389</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<abbreviation>Klub</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_KLUB" id="923A1350-87D7-5276-E8E4-7EA2A00914A2">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>AC37F480-77DD-F14A-44BC-C5CC57A2CD4F</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>KLUB_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>KLUB_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Kontakt" id="E5CBFCC8-2E97-7267-2785-AEB49BB941E3">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>28E0ECEE-C7EB-B02A-535A-8D588410222F</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Domaci_dres" id="050ABD8E-0F81-02BC-46A1-AF20D5BFADA9">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>9950EF2A-ED11-08C3-560C-486F52B37235</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gostujuci_dres" id="497F365E-783C-1B38-789B-E7C43ACF8CFD">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>D610F294-7488-C5FC-2B50-C5BC5EFF1602</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Poste_ID_POSTA" id="37073AE0-5774-72CA-CF92-282D615BCD86">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>9A1E18CB-0DF1-0475-9C6A-C4001F5C06F5</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CED907B6-FD28-3DF6-C164-111F625BF346" referredColumn="C96B5E44-CF0F-5480-3995-431562E8E9DA"/>
+</associations>
+</Column>
+<Column name="Ime" id="57C8D877-7F77-C12E-E3FE-8A3FC0FECAC1">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-04-12 19:16:04 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adresa" id="8D9FA0A2-AAF8-CBF5-5F5C-627EE6FDE789">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-04-12 19:43:43 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91EF3163-83F0-7438-8E7B-EB43A89B0258" name="Klubovi_PK">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>41893258-A8A0-9994-FA10-44C40A5B4670</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="923A1350-87D7-5276-E8E4-7EA2A00914A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2AE2B66D-D6E5-7DAC-E24A-5127F76A559A" name="Klubovi_Poste_FK">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>300996BE-5599-2F3F-68ED-F46EA44A5D36</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37073AE0-5774-72CA-CF92-282D615BCD86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

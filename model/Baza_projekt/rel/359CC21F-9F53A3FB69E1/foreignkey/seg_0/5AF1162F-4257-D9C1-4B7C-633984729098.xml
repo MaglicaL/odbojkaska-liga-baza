@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5AF1162F-4257-D9C1-4B7C-633984729098" containerWithKeyObject="233DB2CD-2539-8CBC-5C92-C57F33277481" localFKIndex="D466999B-5025-7061-BD04-7676EFFD2908" name="Utakmice_Klubovi_FKv2">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>F5A8B9EB-4942-2D1C-53B4-BA620CCEA70D</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<referredTableLongName>Klubovi</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C7872B02-1796-8133-A31F-7216A3974404</referredTableID>
+<keyObject>91EF3163-83F0-7438-8E7B-EB43A89B0258</keyObject>
+<referredKeyID>91EF3163-83F0-7438-8E7B-EB43A89B0258</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_KLUB</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

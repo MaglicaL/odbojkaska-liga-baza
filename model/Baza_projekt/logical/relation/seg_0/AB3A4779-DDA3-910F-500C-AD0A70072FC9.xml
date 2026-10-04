@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Klub-Ig_Kl" directorySegmentName="seg_0" id="AB3A4779-DDA3-910F-500C-AD0A70072FC9">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:09:56 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<sourcePk>41893258-A8A0-9994-FA10-44C40A5B4670</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1D4C9794-368E-20C0-3D73-2A34F938F389</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>559132D8-6552-D7EC-F221-89C11B738D85</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

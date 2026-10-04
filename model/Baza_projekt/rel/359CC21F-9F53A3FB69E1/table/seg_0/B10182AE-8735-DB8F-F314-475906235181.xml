@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B10182AE-8735-DB8F-F314-475906235181" name="Dvorane">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>BDDDBAB8-62FF-5AF0-A509-08E88794B24A</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<abbreviation>Gym</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DVORANA" id="363E8F09-51A6-6B1D-5284-7BB6F0553FB2">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>0C8B1A49-1437-610E-BFF0-6BDA69732BE2</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>DVORANA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>DVORANA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv" id="69868D92-EFC0-2765-A2D8-6F90809F0C68">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>0974A77C-08B5-1C19-CAD0-5025AC88E8CA</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kapacitet" id="2AFCA56C-ADAE-697C-3FB4-21ECA5123B36">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>1A79BCB6-8E25-D729-7208-00CEEA9C608E</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Poste_ID_POSTA" id="F8173803-0926-EB79-BE0C-C926837A45D1">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>4704BA24-FF5D-3546-2890-FDA0BB2166A2</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A39173CE-709F-6B9C-EE0B-D21F5E588978" referredColumn="C96B5E44-CF0F-5480-3995-431562E8E9DA"/>
+</associations>
+</Column>
+<Column name="Adresa" id="FD7616AF-1977-E3D1-DE42-0C56E8D1866E">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-04-12 19:30:03 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="356500AC-1EF1-9008-9661-FE4919295945" name="Dvorane_PK">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>1D357D68-2A26-0325-27A5-40FE989A5073</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="363E8F09-51A6-6B1D-5284-7BB6F0553FB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D967658-DE04-E0B3-76F8-3CD8CCA7D17E" name="Dvorane_Poste_FK">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>68BC6C2E-6B87-5D57-96CE-AD8036BFEB95</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8173803-0926-EB79-BE0C-C926837A45D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

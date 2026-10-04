@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7E0090F5-D036-9754-0916-D26A07DECC1C" containerWithKeyObject="DF1B791A-AD9B-6F99-5325-70D71379A929" localFKIndex="F15CCBEE-9329-1125-8725-21AD476C98D1" name="Igrac_Klub_Igraci_FK">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>EF082EB4-9858-6344-4E72-8B6A01BF11C5</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<referredTableLongName>Igraci</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2C6C924F-82C7-4F3D-E377-56EDF51948F1</referredTableID>
+<keyObject>87D5A1FC-A74A-D262-4D61-66B09137C044</keyObject>
+<referredKeyID>87D5A1FC-A74A-D262-4D61-66B09137C044</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_IGRAC</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

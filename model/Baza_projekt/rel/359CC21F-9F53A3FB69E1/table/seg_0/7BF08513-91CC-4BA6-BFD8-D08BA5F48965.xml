@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7BF08513-91CC-4BA6-BFD8-D08BA5F48965" name="Zupanije">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>FD2D639D-65B5-3494-8502-0DD7F4BB7F24</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<abbreviation>Zup</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ZUPANIJA" id="6AF8A897-A384-00E3-484B-56819B73D813">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>1F453405-6991-C50F-08CE-27077755DE21</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>ZUPANIJA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>ZUPANIJA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Naziv" id="1559A63E-57AB-C373-3E0D-5C0AA9A0BB41">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>FEAAD31B-4FD5-9DA1-3636-0D784FED96B2</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kratica" id="9687ED0F-867C-7E13-2DC2-D2BB26BBFBF5">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>9FCB471D-66FB-D603-7C6D-BD349E6EB500</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1401A8DE-FD25-D4E8-5B73-39BD1D6DBB91" name="Zupanije_PK">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>C9A854B1-9B2D-6139-3A12-799C3CB7B0E7</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AF8A897-A384-00E3-484B-56819B73D813"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

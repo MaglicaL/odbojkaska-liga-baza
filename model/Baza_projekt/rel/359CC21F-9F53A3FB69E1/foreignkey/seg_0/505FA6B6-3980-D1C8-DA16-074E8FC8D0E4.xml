@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="505FA6B6-3980-D1C8-DA16-074E8FC8D0E4" containerWithKeyObject="233DB2CD-2539-8CBC-5C92-C57F33277481" localFKIndex="5A17465A-7346-CE8C-F523-996C04AD27C4" name="Utakmice_Sudci_FK">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>FDC304E0-2956-C337-EAD8-FEC4F800AC03</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<referredTableLongName>Sudci</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>83BACD87-B833-17F8-0C82-72A0749F5EFD</referredTableID>
+<keyObject>8D668ABB-97D6-A236-1D89-3BBB8AC776F6</keyObject>
+<referredKeyID>8D668ABB-97D6-A236-1D89-3BBB8AC776F6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_SUDAC</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

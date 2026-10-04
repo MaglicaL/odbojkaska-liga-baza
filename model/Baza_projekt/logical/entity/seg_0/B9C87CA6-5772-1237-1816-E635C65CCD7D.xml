@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B9C87CA6-5772-1237-1816-E635C65CCD7D" name="Trener">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 06:05:05 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Treneri</preferredAbbreviation>
+<shortName>Trener</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TRENER" id="DF364C38-6846-3FC4-9E2E-7EA55F5C0F27">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 06:05:24 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ime" id="99182D6D-1633-06B6-4865-DFB2538628A0">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 06:06:13 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prezime" id="BEEC84AC-2792-B6FE-2F14-4804569D7966">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 06:06:39 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum_r" id="EBD36BEB-F037-B272-BE36-A782541A2AD1">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 06:06:59 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mjesto_r" id="5AA8AF73-0D42-A919-0B4A-85AF59DE7419">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 06:07:10 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nacionalnost" id="5E7083F2-5EA3-5497-297D-FE48FF89C590">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 06:08:19 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C92230D4-002C-B62B-BBBA-22942371A63C" name="Trener PK">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 06:05:40 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DF364C38-6846-3FC4-9E2E-7EA55F5C0F27</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

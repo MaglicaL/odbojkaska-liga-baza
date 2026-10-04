@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="68648362-5F45-7562-6486-06CE51BFFF25" name="Trener_Klub">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>B49094E8-451C-EF40-5F33-9C1F366A407A</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<abbreviation>T_K</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TRENER_KLUB" id="19679FA7-A80C-292E-BCDF-2ED42EEF99D2">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>C0F38568-9DD2-11FE-D1EB-8464E5D644B4</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>TR_KL_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>TR_KL_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Treneri_ID_TRENER" id="17E5929F-4F08-A9D2-9DDC-53CFD93B6A28">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>C77C100E-4F0A-FB86-1704-36222911EE83</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="791E9710-D39E-7FE9-794E-85701B12C7BF" referredColumn="EECD7810-629A-3828-5CEB-247CDD33AC0D"/>
+</associations>
+</Column>
+<Column name="Klubovi_ID_KLUB" id="55C6F987-4345-FA6C-9B52-83DD1E43C04E">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>CA7ED0A3-4F4C-B3DA-E589-D5574B38D8EF</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D17284F8-6256-3B7C-40F9-D2F6FB8737FA" referredColumn="923A1350-87D7-5276-E8E4-7EA2A00914A2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ABA4F07A-A5C9-835B-93EB-010CC2A56AFA" name="Trener_Klub_PK">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>4E73018E-06E0-A461-2D18-019386A0F1FF</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19679FA7-A80C-292E-BCDF-2ED42EEF99D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82C6BD3C-57B6-9DEA-1A89-3D295080CBDA" name="Trener_Klub_Klubovi_FK">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>180FB9E8-E50C-7D7D-F042-15D3197B5DE8</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55C6F987-4345-FA6C-9B52-83DD1E43C04E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6082C14-9DCB-AEB8-D9BA-74586B4B6CBD" name="Trener_Klub_Treneri_FK">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>A592D39A-112E-E0BB-2A98-4B543D913778</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17E5929F-4F08-A9D2-9DDC-53CFD93B6A28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

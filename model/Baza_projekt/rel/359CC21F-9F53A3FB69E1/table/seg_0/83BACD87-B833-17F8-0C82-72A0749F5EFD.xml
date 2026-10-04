@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83BACD87-B833-17F8-0C82-72A0749F5EFD" name="Sudci">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>4DDDD98E-148A-AE21-601B-F80F45377556</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<abbreviation>Ref</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SUDAC" id="47A8F306-1545-D1D3-4257-423A014239F2">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>BDB256CF-11DA-9010-21A8-05FFF9628107</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SUDAC_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>SUDAC_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Ime" id="6B30D137-A87D-24B2-1AD2-FEA49173E708">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>B026A322-B705-2760-D10C-D6D85B7D4FFD</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prezime" id="F837275B-523D-E233-A78F-6DA2D830AF1A">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>2E2B8188-0F19-0008-A376-7684ECD5723C</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_r" id="57EBB18F-8817-DA5C-0135-74FF06782DD7">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>3EB4981F-0C9A-CBE0-A556-9F61D6BA2C73</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D668ABB-97D6-A236-1D89-3BBB8AC776F6" name="Sudci_PK">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>CD1F791E-3A26-14A3-95FA-3254AFD4B61F</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47A8F306-1545-D1D3-4257-423A014239F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

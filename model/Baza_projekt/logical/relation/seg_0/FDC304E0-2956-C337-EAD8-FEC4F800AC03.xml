@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Glavni_sudac" directorySegmentName="seg_0" id="FDC304E0-2956-C337-EAD8-FEC4F800AC03">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:06:34 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<sourcePk>CD1F791E-3A26-14A3-95FA-3254AFD4B61F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4DDDD98E-148A-AE21-601B-F80F45377556</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>90FF1E3B-2A3E-75CC-A581-D3E765D35881</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

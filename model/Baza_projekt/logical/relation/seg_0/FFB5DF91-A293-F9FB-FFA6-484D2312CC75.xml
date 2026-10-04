@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Dvorana_Utakmica" directorySegmentName="seg_0" id="FFB5DF91-A293-F9FB-FFA6-484D2312CC75">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:07:44 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<sourcePk>1D357D68-2A26-0325-27A5-40FE989A5073</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BDDDBAB8-62FF-5AF0-A509-08E88794B24A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>90FF1E3B-2A3E-75CC-A581-D3E765D35881</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

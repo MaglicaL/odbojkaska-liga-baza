@@ -1,0 +1,373 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="233DB2CD-2539-8CBC-5C92-C57F33277481" name="Utakmice">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>90FF1E3B-2A3E-75CC-A581-D3E765D35881</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<abbreviation>Match</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_UTAKMICA" id="3F94B413-71B0-194C-B7B2-7C90B62871F5">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>543FCDAE-739F-230C-A455-25D675029CCD</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementMinValue>1</autoIncrementMinValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>UTAKMICA_SEQ</autoIncrementSequenceName>
+<autoIncrementTriggerName>UTAKMICA_TRG</autoIncrementTriggerName>
+</Column>
+<Column name="Datum_odrzavanja" id="27D020A0-106F-5E53-02BF-15C8008BA44E">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>52476291-893B-DF3D-FAB0-5C676EDC37F5</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Domaci_dobiveni_setovi" id="49D24A9D-205D-6CC0-D766-6CD7F034F961">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>41F1CEB6-EAEE-E633-921A-96E4161471E1</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>3</endValue>
+<description>maksimalni broj iganih setova</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Gosti_dobiveni_setovi" id="CED06999-8977-C43B-8196-2686569FDDCA">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>15E0D1DC-9256-0702-93F7-978B8D648718</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>3</endValue>
+<description>maksimalni broj odigranih setova</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Domaci_1set" id="8F92CEA7-52A7-7143-38EF-63F4840A2349">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>158B5CCC-5B23-3371-12A0-6A1788CABC21</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gosti_1set" id="3561DE91-9E56-A6A0-3B05-8ECE9426B4A0">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>9BADCDAD-273F-0D47-9806-2204B0EF4EF7</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Domaci_2set" id="10B6B5DC-554C-F61F-4827-46157000304C">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>7D9CAD11-9D2C-93AD-FBBD-2C0CB181F889</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gosti_2set" id="0E134AAA-CAF9-70A3-D1E9-FE3695C5B314">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>9E4A4BA3-C695-D230-96A7-382695ADC295</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Domaci_3set" id="C3B26D6B-5C4A-A6B8-BE6E-2B24543A0F23">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>D73D8E77-F4A6-FC19-90EA-5A7686481FFC</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gosti_3set" id="3CE12F87-F163-215C-8585-CAA1E7406260">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>E4255ED6-173B-F48A-BAC1-66D1D44D1925</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Domaci_4set" id="A1D08A0B-4A3E-B68B-9068-AA2D9D82A437">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>59D0D0F7-4DFD-A1DE-22A7-433FF6133700</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gosti_4set" id="76EEAA12-4FD8-C5DD-A19A-B9228C6329CF">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>27CB7F96-666F-51A9-7DB9-67923E8DB294</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Domaci_5set" id="2DB31441-89BA-C710-C647-9C1CC139175F">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>9E6C9189-538C-7A19-677D-7436A61C2A20</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gosti_5set" id="59B5E9B5-E58B-14AA-5D45-D6E911C4F69A">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>8B6B38D3-0406-3F25-B7E6-C663B1C345C6</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Broj_gledatelja" id="2EE4C340-9714-B0C6-EF97-A7AF5169D2A8">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>421779B5-A1D3-4F93-F74C-148BD2430765</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sudci_ID_SUDAC" id="81007F5D-3DB3-2093-1B36-DA5D7575800C">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>85D805F5-1807-B7D9-1FC2-E5F397566F60</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="505FA6B6-3980-D1C8-DA16-074E8FC8D0E4" referredColumn="47A8F306-1545-D1D3-4257-423A014239F2"/>
+</associations>
+</Column>
+<Column name="Sudci_ID_SUDAC2" id="D24BA2C9-AA95-6AF3-733C-B4D307912E61">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>25AC1547-CE34-5F2B-0617-0EB44F568035</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17DAF3D3-689E-D71F-1477-FBC503890021" referredColumn="47A8F306-1545-D1D3-4257-423A014239F2"/>
+</associations>
+</Column>
+<Column name="Dvorane_ID_DVORANA" id="74AA831D-0EFE-3045-4D51-B558E204F56B">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>B33AE5EE-084B-388F-0635-F09B922BC77A</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84B3834F-46BC-8A4E-3B53-AD05293B9E26" referredColumn="363E8F09-51A6-6B1D-5284-7BB6F0553FB2"/>
+</associations>
+</Column>
+<Column name="Klubovi_ID_KLUB_Domaci" id="2483DEFC-65D7-9BD5-99F7-1568C43DB571">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>72069D11-7E60-24FC-2A4C-67C3DCBE85DA</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1CB363D-701D-6A24-C4FC-8C9CDDDDBEE0" referredColumn="923A1350-87D7-5276-E8E4-7EA2A00914A2"/>
+</associations>
+</Column>
+<Column name="Klubovi_ID_KLUB_Gosti" id="843671A6-8253-16EB-6F30-1DCC909619A9">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>5CFE16A8-CFD9-2DE4-7A99-7099997A9722</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AF1162F-4257-D9C1-4B7C-633984729098" referredColumn="923A1350-87D7-5276-E8E4-7EA2A00914A2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B2A6C28-BE4B-6786-36C0-C2368AA78701" name="Utakmice_PK">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>89A384DA-0078-ADA3-E1E7-2E3B01AD3444</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F94B413-71B0-194C-B7B2-7C90B62871F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C471BDE-3373-9E06-D761-284651535089" name="Utakmice_Klubovi_FK">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>B4226837-BDFE-B065-3750-764F79E1F8CB</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2483DEFC-65D7-9BD5-99F7-1568C43DB571"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC44B378-5417-AA45-D8AE-23420D46713F" name="Utakmice_Dvorane_FK">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>FFB5DF91-A293-F9FB-FFA6-484D2312CC75</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74AA831D-0EFE-3045-4D51-B558E204F56B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A17465A-7346-CE8C-F523-996C04AD27C4" name="Utakmice_Sudci_FK">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>FDC304E0-2956-C337-EAD8-FEC4F800AC03</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81007F5D-3DB3-2093-1B36-DA5D7575800C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D466999B-5025-7061-BD04-7676EFFD2908" name="Utakmice_Klubovi_FKv2">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>F5A8B9EB-4942-2D1C-53B4-BA620CCEA70D</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="843671A6-8253-16EB-6F30-1DCC909619A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66FABBF1-9323-B008-FE88-98AC6DD33CB4" name="Utakmice_Sudci_FKv2">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:13:50 UTC</createdTime>
+<generatorID>643B77C5-5251-F051-1C69-32518867B622</generatorID>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D24BA2C9-AA95-6AF3-733C-B4D307912E61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

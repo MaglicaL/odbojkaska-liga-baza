@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Igrac-Ig_Kl" directorySegmentName="seg_0" id="EF082EB4-9858-6344-4E72-8B6A01BF11C5">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:09:41 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<sourcePk>222AD9EE-9520-D878-6C2D-9B54FE703035</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7438BA9C-7269-69C7-A272-B045AAE0F5E5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>559132D8-6552-D7EC-F221-89C11B738D85</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

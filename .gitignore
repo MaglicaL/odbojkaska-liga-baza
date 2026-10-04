@@ -1,0 +1,6 @@
+# Privremene datoteke (Word, Windows, macOS)
+~$*
+~WRL*.tmp
+.DS_Store
+Thumbs.db
+desktop.ini

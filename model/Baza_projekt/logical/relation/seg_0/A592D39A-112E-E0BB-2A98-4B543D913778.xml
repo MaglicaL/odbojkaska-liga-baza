@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Tr-Tr_Kl" directorySegmentName="seg_0" id="A592D39A-112E-E0BB-2A98-4B543D913778">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 13:59:48 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<sourcePk>C92230D4-002C-B62B-BBBA-22942371A63C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B9C87CA6-5772-1237-1816-E635C65CCD7D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B49094E8-451C-EF40-5F33-9C1F366A407A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

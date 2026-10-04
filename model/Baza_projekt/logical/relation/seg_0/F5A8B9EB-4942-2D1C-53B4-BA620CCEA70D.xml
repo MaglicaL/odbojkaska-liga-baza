@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Gostujuci_tim" directorySegmentName="seg_0" id="F5A8B9EB-4942-2D1C-53B4-BA620CCEA70D">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:08:41 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<sourcePk>41893258-A8A0-9994-FA10-44C40A5B4670</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1D4C9794-368E-20C0-3D73-2A34F938F389</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>90FF1E3B-2A3E-75CC-A581-D3E765D35881</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Posta_Klub" directorySegmentName="seg_0" id="300996BE-5599-2F3F-68ED-F46EA44A5D36">
+<createdBy>Lovro</createdBy>
+<createdTime>2026-03-30 14:03:30 UTC</createdTime>
+<ownerDesignName>Baza_projekt</ownerDesignName>
+<engineerTo>
+<item key="359CC21F-716A-9E20-8709-9F53A3FB69E1" value="true"/>
+</engineerTo>
+<sourcePk>1EECF0BE-9AE4-2FAF-CE1E-07779B7FFA33</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D6636DA4-6768-D95F-3D75-6A576C98F805</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1D4C9794-368E-20C0-3D73-2A34F938F389</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
